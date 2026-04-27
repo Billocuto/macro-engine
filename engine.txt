@@ -1,0 +1,21 @@
+Termos de Serviço e Licença de Uso – Macro Engine
+Os presentes Termos de Serviço regulam o uso do software Macro Engine, doravante denominado "Software", desenvolvido e de propriedade exclusiva de Gaara.
+
+1. Titularidade e Propriedade Intelectual
+Todo e qualquer direito de propriedade intelectual sobre o Macro Engine pertence exclusivamente ao desenvolvedor Gaara. Esta versão do Software é protegida por direitos autorais.
+
+2. Canais de Distribuição e Segurança
+O Software deve ser baixado apenas de fontes oficiais.
+Versões modificadas podem conter alterações maliciosas e são de total responsabilidade do usuário.
+
+3. Escopo de Aplicação
+O Macro Engine foi desenvolvido para automação de entradas de teclado no sistema operacional.
+
+4. Segurança de Uso
+O software não injeta código, não modifica arquivos internos de jogos e opera apenas em nível de teclado.
+
+5. Responsabilidade
+O usuário é responsável pelo uso da ferramenta e por obter versões seguras.
+
+Desenvolvedor: Gaara
+Versão: 0.0.1
