@@ -1,9 +1,3 @@
-███╗   ███╗ █████╗  ██████╗██████╗  ██████╗     ███████╗███╗   ██╗ ██████╗ ██╗███╗   ██╗███████╗
-████╗ ████║██╔══██╗██╔════╝██╔══██╗██╔═══██╗    ██╔════╝████╗  ██║██╔════╝ ██║████╗  ██║██╔════╝
-██╔████╔██║███████║██║     ██████╔╝██║   ██║    █████╗  ██╔██╗ ██║██║  ███╗██║██╔██╗ ██║█████╗
-██║╚██╔╝██║██╔══██║██║     ██╔══██╗██║   ██║    ██╔══╝  ██║╚██╗██║██║   ██║██║██║╚██╗██║██╔══╝
-██║ ╚═╝ ██║██║  ██║╚██████╗██║  ██║╚██████╔╝    ███████╗██║ ╚████║╚██████╔╝██║██║ ╚████║███████╗
-╚═╝     ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝ ╚═════╝     ╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝╚═╝  ╚═══╝╚══════╝
 Project Description: Macro Engine – Official Edition by Gaara
 The Macro Engine is a premier, high-performance automation framework developed exclusively by Gaara. Engineered with a primary focus on Jujutsu Shenanigans, this software serves as a technical bridge to enhance combat fluidity, allowing users to execute complex maneuvers with professional-grade precision.
 
