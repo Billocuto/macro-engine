@@ -42,3 +42,11 @@ While many macros are generic, this engine is specifically calibrated for the un
 <p align="center">
   <i>Developed with precision. Powered by Python. Created by Gaara.</i>
 </p>
+## ⚠️ Warning
+
+If the script does not run, install the required dependencies:
+
+```bash
+pip install keyboard pyautogui
+```
+
