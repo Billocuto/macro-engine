@@ -39,14 +39,12 @@ While many macros are generic, this engine is specifically calibrated for the un
 [![GitHub Custom](https://img.shields.io/badge/Portfolio-Gaara_Edition-black?style=for-the-badge&logo=github)]([YOUR-LINK])
 
 ---
-<p align="center">
-  <i>Developed with precision. Powered by Python. Created by Gaara.</i>
-</p>
-## ⚠️ Warning
+⚠️ Warning
 
-If the script does not run, install the required dependencies:
+If the script does not run, install the required dependency:
 
-```bash
-pip install keyboard pyautogui
-```
+py -m pip install requests
 
+If py does not work, try:
+
+python -m pip install requests
