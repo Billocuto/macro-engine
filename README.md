@@ -39,12 +39,16 @@ While many macros are generic, this engine is specifically calibrated for the un
 [![GitHub Custom](https://img.shields.io/badge/Portfolio-Gaara_Edition-black?style=for-the-badge&logo=github)]([YOUR-LINK])
 
 ---
-⚠️ Warning
+## ⚠️ Warning
 
 If the script does not run, install the required dependency:
 
+```bash
 py -m pip install requests
+```
 
-If py does not work, try:
+> If `py` does not work, try:
 
+```bash
 python -m pip install requests
+```
