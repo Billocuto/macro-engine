@@ -41,14 +41,66 @@ While many macros are generic, this engine is specifically calibrated for the un
 ---
 ## ⚠️ Warning
 
-If the script does not run, install the required dependency:
+If the script does not run, it is likely due to missing dependencies or Python not being properly installed.
+
+---
+
+## 🐍 Python Requirement
+
+Make sure you have **Python 3.10+** installed.
+
+Check with:
 
 ```bash
-py -m pip install requests
-```
+py --version
+If that does not work:
 
-> If `py` does not work, try:
+python --version
+📦 Install Required Dependencies
 
-```bash
-python -m pip install requests
-```
+Run the following command:
+
+py -m pip install requests keyboard pyautogui pillow mouseinfo
+
+If py does not work, try:
+
+python -m pip install requests keyboard pyautogui pillow mouseinfo
+📄 Alternative (Recommended)
+
+Install using a requirements file:
+
+py -m pip install -r requirements.txt
+
+If py does not work:
+
+python -m pip install -r requirements.txt
+📁 requirements.txt
+
+Create a file named requirements.txt and paste:
+
+requests
+keyboard
+pyautogui
+pillow
+mouseinfo
+⚠️ Common Issues
+❌ ModuleNotFoundError
+
+Install the missing module using pip.
+
+❌ pip is not recognized
+
+Try:
+
+py -m ensurepip --upgrade
+❌ Permission Error
+
+Run CMD as Administrator.
+
+❌ keyboard / pyautogui not working
+
+Some systems require:
+
+Administrator privileges
+Antivirus exceptions
+Proper display environment
