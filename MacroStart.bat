@@ -1,19 +1,15 @@
 @echo off
-chcp 65001 >nul
 
-:: ================= EXEC =================
-set "BASE=%USERPROFILE%\Documents\MacroEngine"
-if not exist "%BASE%" set "BASE=%USERPROFILE%\Documentos\MacroEngine"
-if not exist "%BASE%" set "BASE=%USERPROFILE%\OneDrive\Documents\MacroEngine"
-if not exist "%BASE%" set "BASE=%USERPROFILE%\OneDrive\Documentos\MacroEngine"
+:: cria VBS temporário
+set "vbs=%temp%\run_hidden.vbs"
 
-cd /d "%BASE%"
-
-:: verifica arquivos
-if not exist Macro.py exit
+echo Set WshShell = CreateObject("WScript.Shell") > "%vbs%"
+echo WshShell.Run ""cmd /c launcher_core.bat"", 0, False >> "%vbs%"
 
 :: executa invisível
-start "" /B pythonw Macro.py 2>nul || start "" /B pyw Macro.py
+cscript //nologo "%vbs%"
 
-timeout /t 1 >nul
+:: limpa
+del "%vbs%"
+
 exit
